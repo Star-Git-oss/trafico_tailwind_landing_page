@@ -81,7 +81,7 @@ export const fadeInDown = {
   animate: {
     y: 0,
     opacity: 1,
-    transition: { type: "tween", duration: 1.1 },
+    transition: { type: "tween", duration: 0.5 },
   },
 };
 
@@ -93,7 +93,7 @@ export const fadeInUp = {
   animate: {
     y: 0,
     opacity: 1,
-    transition: { type: "tween", duration: 1.1 },
+    transition: { type: "tween", duration: 0.5 },
   },
 };
 
@@ -105,7 +105,7 @@ export const fadeInLeft = {
   animate: {
     x: 0,
     opacity: 1,
-    transition: { type: "tween", duration: 1.1 },
+    transition: { type: "tween", duration: 0.5 },
   },
 };
 
@@ -117,6 +117,6 @@ export const fadeInRight = {
   animate: {
     x: 0,
     opacity: 1,
-    transition: { type: "tween", duration: 1.1 },
+    transition: { type: "tween", duration: 0.5 },
   },
 };
